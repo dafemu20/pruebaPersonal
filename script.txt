@@ -1,0 +1,12 @@
+CREATE DATABASE PruebaJava;
+use PruebaJava;
+CREATE TABLE clientes (
+	id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    tipo varchar(50),
+    identificacion varchar(20),
+    nombre VARCHAR(50),
+    apellidos VARCHAR(150),
+    edad integer,
+    telefono varchar(20),
+    direccion varchar(100)  
+);
